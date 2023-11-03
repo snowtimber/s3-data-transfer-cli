@@ -1,3 +1,7 @@
+# mkdir for new folder & cd into
+mkdir 100_10MB_files
+cd 100_10MB_files
+
 # create X number of files of Y Size
 for i in {1..100}; do
     dd if=/dev/urandom of=100_10MB_$i bs=10M count=1
